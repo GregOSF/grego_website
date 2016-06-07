@@ -1,1 +1,48 @@
 
+body {
+	padding-top: 50px;
+	text-align: justify;
+}
+
+#hero {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+#name {
+	font-size: 72px;
+}
+
+#title {
+	width: 60%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 20px 0 20px; 
+  display: inline-block;
+}
+
+#title span {
+	background:#eee; 
+  padding:0 10px;
+}
+
+#aboutMe {
+	font-family: 'Merriweather', serif;
+}
+
+#projectOne {
+
+}
+
+#projectTwo {
+
+}
+
+#projectThree {
+
+}
+
+#projectFour {
+
+}
