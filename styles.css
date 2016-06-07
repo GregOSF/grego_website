@@ -4,43 +4,58 @@ body {
 	text-align: justify;
 }
 
+ul {
+	padding-left: 15px;
+}
+
 #hero {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
 
+#gregJumbo {
+	padding: 150px 0;
+	background-color: rgba(44, 62, 80,1.0);
+}
+
 #name {
 	font-size: 72px;
+	color: #fff
 }
 
 #title {
 	width: 60%; 
   text-align: center; 
-  border-bottom: 1px solid #000; 
+  border-bottom: 1px solid #fff; 
   line-height: 0.1em;
   margin: 20px 0 20px; 
   display: inline-block;
 }
 
 #title span {
-	background:#eee; 
+	background: rgba(44, 62, 80,1.0); 
   padding:0 10px;
+  color: #fff
 }
 
 #aboutMe {
 	font-family: 'Merriweather', serif;
+	padding: 20px;
 }
 
 #projectOne {
-
+	font-family: 'Merriweather', serif;
+	padding: 20px;
 }
 
 #projectTwo {
-
+	font-family: 'Merriweather', serif;
+	padding: 20px;
 }
 
 #projectThree {
-
+	font-family: 'Merriweather', serif;
+	padding: 20px;
 }
 
 #projectFour {
