@@ -48,34 +48,51 @@ ul {
 }
 
 #aboutMe {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	padding: 20px;
 	background-color: white;
+	font-size: 16px;
+	text-align: center;
 }
 
 #projectOne {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	padding: 20px;
-	color: white;
+	
 }
 
 #projectTwo {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	padding: 20px;
+	border-top: 3px solid white;
 }
 
 #projectThree {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	padding: 20px;
-	color: white;
+	
+	border-top: 3px solid white;
 }
 
 #projectFour {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	padding: 20px;
+	border-top: 3px solid white;
 }
 
 #projectFive {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	padding: 20px;
+	border-top: 3px solid white;
 }
+
+.copy {
+	background-color: rgba(44, 62, 80, 1.0);
+	padding: 20px !important;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	font-size: 16px;
+	color: white;
+}
+
