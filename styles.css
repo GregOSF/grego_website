@@ -21,7 +21,6 @@ ul {
 
 #gregJumbo {
 	padding: 150px 0 200px 0;
-	
 	margin: 0 auto;
 	background: rgba(44, 62, 80,1.0);
 	background-size: cover;
@@ -75,37 +74,11 @@ ul {
   color: #2C3E50;
 }
 
-#aboutCopy {
-	padding: 20px;
-}
-
-
-#projectOne {
-	font-family: 'Lato', sans-serif;
-	padding: 20px;
-	
-}
-
-#projectTwo {
-	font-family: 'Lato', sans-serif;
-	padding: 20px;
-	
-}
-
-#projectThree {
+.projects {
 	font-family: 'Lato', sans-serif;
 	padding: 20px;
 }
 
-#projectFour {
-	font-family: 'Lato', sans-serif;
-	padding: 20px;
-}
-
-#projectFive {
-	font-family: 'Lato', sans-serif;
-	padding: 20px;
-}
 
 .copy {
 	padding: 20px !important;
@@ -117,9 +90,7 @@ ul {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	color: white;
-	font-size: 72px !important;
 	padding: 60px;
-
 }
 
 #projectTitle {
@@ -148,4 +119,51 @@ footer {
 	background-color: white;
 	padding: 30px;
 	text-align: center;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+	#name {
+		font-size: 40px;
+	}
+
+	#title span {
+		font-size: 20px;
+	}
+
+	#aboutTitle {
+		font-size: 25px;
+	}
+	
+	#aboutMe {
+		padding: 20px;
+		
+	}
+
+	#aboutCopy {
+		padding: 20px;
+		text-align: justify;
+	}
+	
+	#projectHero {
+	padding: 20px;
+	}
+
+	#projectTitle {
+  font-size: 25px;
+	}
+	
+	h2 {
+		font-size: 20px !important;
+	}
+
+	.copy {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.copy ul {
+		list-style-type: none;
+	}
 }
